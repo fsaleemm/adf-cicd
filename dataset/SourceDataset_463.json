@@ -1,0 +1,17 @@
+{
+	"name": "SourceDataset_463",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "TestFilesStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "source"
+			}
+		}
+	}
+}
